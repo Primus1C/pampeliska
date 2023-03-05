@@ -1,6 +1,7 @@
 :root {
     --color-back: #eded80;
     --color-text: #000;
+    --color-primary-brand: #f28a30;
 }
 
 * *::before *::after {
@@ -25,12 +26,34 @@ body {
     background-color: var(--color-inverted);
 }
 
+.container {
+    width: 100%;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
 .alt-top-header{
-    background-color: red;
+    display: flex;
+    height: 40px;
+    color: #fff;
+    background-color: var(--color-primary-brand);
     
 }
 
 .alt-top-header__contacts{
     display: flex;
-    
+
 }
+
+/*.alt-top-header__contacts__list{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}*/
