@@ -1,0 +1,36 @@
+:root {
+    --color-back: #eded80;
+    --color-text: #000;
+}
+
+* *::before *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: var(--color-text);
+    background-color: var(--color-inverted);
+}
+
+.alt-top-header{
+    background-color: red;
+    
+}
+
+.alt-top-header__contacts{
+    display: flex;
+    
+}
