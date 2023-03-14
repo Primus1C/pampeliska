@@ -27,10 +27,21 @@ body {
 }
 
 .container {
-    width: 100%;
-    max-width: 1158px;
+    max-width: 428px;
+    padding: 0 16px;
     margin: 0 auto;
-    padding: 0 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1158px;
+    }
 }
 
 .list {
@@ -39,15 +50,23 @@ body {
     gap: 40px;
 }
 
-.alt-top-header{
-    display: flex;
-    height: 40px;
-    color: #fff;
-    background-color: var(--color-primary-brand);
+.img {
+    display: block;
+    max-width: 100%;
+}
+
+/* ===================================== HEADER ===================================== */
+
+.header{
     
 }
 
-.alt-top-header__contacts{
+.header-container {
+    color: #fff;
+    background-color: var(--color-primary-brand);
+}
+
+.header-contacts{
     display: flex;
 
 }
