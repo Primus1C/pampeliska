@@ -1,7 +1,13 @@
 :root {
-    --color-back: #eded80;
+    /*--color-back: #eded80;
+    --color-primary-brand: #f28a30;*/
+
     --color-text: #000;
-    --color-primary-brand: #f28a30;
+    --color-peach: #d86338;
+    --color-buckthorn: #f0a400;
+    --color-sand: #eed676;
+    --color-salad: #a1bb5a;
+    --color-grass: #638b19;
 }
 
 * *::before *::after {
@@ -23,7 +29,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: var(--color-text);
-    background-color: var(--color-inverted);
+    background-color: white;
 }
 
 .container {
@@ -47,7 +53,7 @@ body {
 .list {
     display: flex;
     list-style-type: none;
-    gap: 40px;
+    gap: 20px;
 }
 
 .img {
@@ -62,8 +68,12 @@ body {
 }
 
 .header-container {
-    color: #fff;
-    background-color: var(--color-primary-brand);
+    display: flex;
+    justify-content: space-between;
+    /*height: 40px;*/
+    font-size: 14px;
+    color: white;
+    background-color: var(--color-peach);
 }
 
 .header-contacts{
@@ -71,8 +81,13 @@ body {
 
 }
 
-/*.alt-top-header__contacts__list{
+.social-icon {
+    width: 24px;
+    fill: white;
+}
+
+.address-list {
     display: flex;
-    flex-direction: row;
-    gap: 40px;
-}*/
+    align-items: center;
+    justify-content: center;
+}
