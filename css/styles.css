@@ -1,7 +1,4 @@
 :root {
-    /*--color-back: #eded80;
-    --color-primary-brand: #f28a30;*/
-
     --color-text: #000;
     --color-peach: #d86338;
     --color-buckthorn: #f0a400;
@@ -16,13 +13,18 @@
     box-sizing: border-box;
 }
 
-p,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 h1,
 h2,
 h3,
 h4 {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    font-family: 'Fuzzy+Bubbles', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 body {
@@ -70,6 +72,7 @@ body {
 .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     /*height: 40px;*/
     font-size: 14px;
     color: white;
@@ -83,11 +86,31 @@ body {
 
 .social-icon {
     width: 24px;
+    height: 24px;
     fill: white;
+    margin-right: 6px;
 }
 
 .address-list {
+    /*display: flex;*/
+}
+
+.address-list-item {
     display: flex;
     align-items: center;
-    justify-content: center;
+}
+.address-list-contact {
+    text-decoration: none;
+}
+
+/* ===================================== FOOTER ===================================== */
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-peach);
+}
+
+.footer-list {
+    display: inline;
 }
