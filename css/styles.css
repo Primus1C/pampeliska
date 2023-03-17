@@ -55,7 +55,7 @@ body {
 .list {
     display: flex;
     list-style-type: none;
-    gap: 20px;
+    gap: 24px;
 }
 
 .img {
@@ -72,36 +72,44 @@ body {
 .header-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    /*height: 40px;*/
+    /*align-items: center;*/
     font-size: 14px;
     color: white;
+    fill: white;
     background-color: var(--color-peach);
 }
 
 .header-contacts{
-    display: flex;
+    /*display: flex;*/
 
+}
+
+.socials {
+    /*display: flex;*/
 }
 
 .social-icon {
     width: 24px;
     height: 24px;
-    fill: white;
+    fill: inherit;
     margin-right: 6px;
 }
 
 .address-list {
     /*display: flex;*/
+    /*color: white;*/
 }
 
 .address-list-item {
-    display: flex;
-    align-items: center;
+    /*display: flex;
+    align-items: center;*/
 }
+
 .address-list-contact {
     text-decoration: none;
+    color: inherit;
 }
+
 
 /* ===================================== FOOTER ===================================== */
 
