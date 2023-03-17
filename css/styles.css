@@ -111,9 +111,85 @@ body {
     background-color: var(--color-sand);
 }
 
+.navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
 
+.navigation-link {
+    color: inherit;
+    text-decoration: none;
+}
 
+/* ===================================== HERO ===================================== */
 
+.hero {
+    text-align: center;
+    padding: 112px 0px;
+
+    background-image: linear-gradient(rgb(46, 47, 66, 0.7), rgb(46, 47, 66, 0.7)), url("../images/Carosel02.jpg");
+    background-size: 1440px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        padding: 188px 0px;
+    }
+}
+
+.hero-title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white;
+    max-width: 320px;
+    margin: auto;
+    margin-bottom: 72px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-title {
+        font-size: 56px;
+        max-width: 496px;
+        margin-bottom: 36px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero-title {
+        font-size: 56px;
+        max-width: 496px;
+        margin-bottom: 48px;
+    }
+}
+
+.button {
+    width: 169px;
+    padding: 16px 32px;
+    margin: auto;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    /*color: var(--color-inverted);*/
+    background: var(--color-peach);
+    border: var(--color-peach);
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    /*transition-property: background;
+    transition-duration: var(--time-duration);
+    transition-timing-function: var(--time-function);*/
+}
+
+.button:hover,
+.button:focus {
+    /*background: var(--pressed-state)*/
+}
 /* ===================================== FOOTER ===================================== */
 
 .footer-container {
@@ -125,3 +201,4 @@ body {
 .footer-list {
     display: inline;
 }
+
