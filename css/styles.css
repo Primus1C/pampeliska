@@ -65,6 +65,20 @@ body {
     max-width: 100%;
 }
 
+/* ===================================== FIXED HEADER ===================================== */
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.visible-title {
+    visibility: visible;
+}
+
+
 /* ===================================== HEADER ===================================== */
 
 .header{
@@ -199,6 +213,18 @@ body {
 }
 
 .footer-list {
-    display: inline;
+    align-items: center;
+    gap: 24px;
 }
 
+.footer-bordered-item{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    padding: 8px;
+    background-color: white;
+}
+.footer-image {
+    max-width: 100%;
+}
