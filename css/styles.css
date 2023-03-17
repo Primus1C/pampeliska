@@ -104,6 +104,15 @@ body {
     color: inherit;
 }
 
+/* ===================================== NAVIGATION */
+
+.navigation-container {
+    /*display: flex;*/
+    background-color: var(--color-sand);
+}
+
+
+
 
 /* ===================================== FOOTER ===================================== */
 
