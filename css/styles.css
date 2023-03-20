@@ -78,21 +78,33 @@ body {
     visibility: visible;
 }
 
+nav {
+    postion: fixed;
+    z-index: 10;
+}
 
 /* ===================================== HEADER ===================================== */
 
 .header{
-    
+    /* */
+    /*height: 231px;
+    z-index: 10;*/
+    /* */
 }
 
 .header-container {
-    display: flex;
-    justify-content: space-between;
-    /*align-items: center;*/
     font-size: 14px;
     color: var(--color-inactive-link);
     fill: var(--color-inactive-link);
     background-color: var(--color-peach);
+    /* */
+    height: 48px;
+    /* */
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
 }
 
 .social-icon {
@@ -123,10 +135,16 @@ body {
 .navigation-container {
     /*display: flex;*/
     background-color: var(--color-sand);
+    /* */
+    height: 183px;
+    postion: fixed;
+    z-index: 10;
+    /* */
 }
 
 .navigation-wrapper {
     display: flex;
+    height: 183px;
     justify-content: space-between;
     color: white;
 }
@@ -136,16 +154,21 @@ body {
     text-decoration: none;
 }
 
+.logo-link {
+    padding: 10px 0;
+}
+
 /* ===================================== HERO ===================================== */
 
 .hero {
     text-align: center;
     padding: 112px 0px;
 
-    background-image: linear-gradient(rgb(46, 47, 66, 0.7), rgb(46, 47, 66, 0.7)), url("../images/Carosel02.jpg");
+    background-image: linear-gradient(rgb(46, 47, 66, 0.7), rgb(46, 47, 66, 0.7)), url("../images/bckg1.jpg");
     background-size: 1440px auto;
     background-position: center;
     background-repeat: no-repeat;
+    max-height: 600px;
 }
 
 @media screen and (min-width: 1200px) {
