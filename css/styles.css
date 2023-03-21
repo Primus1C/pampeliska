@@ -70,8 +70,8 @@ body {
 .fixed-header {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    /*left: 0;
+    width: 100%;*/
 }
 
 .visible-title {
@@ -94,11 +94,11 @@ nav {
 
 .header-container {
     font-size: 14px;
+    background-color: var(--color-peach);
     color: var(--color-inactive-link);
     fill: var(--color-inactive-link);
-    background-color: var(--color-peach);
     /* */
-    height: 48px;
+    /*height: 48px;*/
     /* */
 }
 
@@ -122,7 +122,7 @@ nav {
 }
 
 .address-list {
-    margin: 14px 0px;
+    padding-left: 0;
 }
 
 .address-list-contact {
@@ -136,7 +136,7 @@ nav {
     /*display: flex;*/
     background-color: var(--color-sand);
     /* */
-    height: 183px;
+    height: 180px;
     postion: fixed;
     z-index: 10;
     /* */
@@ -144,7 +144,7 @@ nav {
 
 .navigation-wrapper {
     display: flex;
-    height: 183px;
+    /*height: 183px;*/
     justify-content: space-between;
     color: white;
 }
