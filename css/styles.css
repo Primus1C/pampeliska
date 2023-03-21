@@ -76,11 +76,13 @@ body {
 
 .visible-title {
     visibility: visible;
+    position: fixed;
+    background-color: var(--color-peach);
 }
 
 nav {
-    position: fixed;
-    z-index: 10;
+    /*position: fixed;
+    z-index: 10;*/
 }
 
 /* ===================================== HEADER ===================================== */
@@ -133,12 +135,12 @@ nav {
 /* ===================================== NAVIGATION */
 
 .navigation-container {
-    /*display: flex;*/
+    display: flex;
     background-color: var(--color-sand);
     /* */
     height: 180px;
-    postion: fixed;
-    z-index: 10;
+    /*postion: fixed;
+    z-index: 10;*/
     /* */
 }
 
@@ -147,6 +149,10 @@ nav {
     /*height: 183px;*/
     justify-content: space-between;
     color: white;
+}
+
+.navigation-list {
+    flex-wrap: wrap;
 }
 
 .navigation-link {
